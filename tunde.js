@@ -235,6 +235,148 @@
 
 
 
+// let tunde = ''
+// console.log(typeof(tunde));
+// let tunde2= String()
+// console.log(typeof(tunde2));
+
+
+
+let world = 'Hello Class \'your\' are welcome to';
+// let address = 'Digital Fortress Institute';
+// console.log(world.includes('Class'));
+// console.log(world.substring(4));
+// console.log(world.slice(0, 10));
+// console.log(world.replace('Class', 'Club'))
+// console.log(world.split(' '));
+
+// console.log(world.trim());
+// console.log(world.trimEnd());
+// console.log(world.trimStart());
+
+// let x= world.split(' ');
+// console.log(x.reverse().join(' '));
+
+// console.log(world.startsWith('H'));
+// console.log(world.endsWith('o'));
+
+// console.log(world.repeat(3));
+// console.log(`${world} ${address}`);
+// console.log(world, address);
+// console.log(world+ ' ' + address);
+// console.log(address.indexOf('i'));
+// console.log(address.toUpperCase());
+
+
+
+// let num = parseInt(prompt('Enter a nunber'));
+
+// if(num % 2 == 0 && num % 3 == 0){
+//   console.log('FizzBuzz')
+
+// }else if ( num % 3 == 0 ){
+//   console.log('Fizz')
+// }else {
+//   console.log('Buzz')
+// }
+
+// let age = prompt('Enter your age')
+// if (age >= 18){
+//   console.log('You Can Vote');
+// }else{
+//   console.log('you can not vote')
+// };
+
+// let number= parseInt(prompt('Enter a number'));
+// if (number > 0){
+//   console.log('positive')
+// }else if(number < 0 ){
+//   console.log('negative')
+// }else{
+//   console.log('Zero')
+// }
+
+// let x = 0;
+// let product = 2
+
+// while (x <= 10){
+//   x++
+//   console.log(`${product} x ${x} = ${product * x}`)
+// }
+
+// for( let i = 0; i<=10; i++){
+
+//  console.log(`${product} x ${i} = ${product * i}`)
+// }
+
+// let color = ['blue', 'red', 'pink', 'Purple'];
+// console.log(color)
+// for(let i of color){
+//   // console.log(i)
+//   if(i[0] == 'P' || i[0] == 'p'){
+//     console.log(i)
+//   }
+// }
+
+// let num1 = parseInt(prompt('Enter your first number'));
+// let num2 = parseInt(prompt('Enter your second number'));
+// let num3 = parseInt(prompt('Enter your second number'));
+
+// if(num1 > num2 && num1 > num3){
+//   console.log('Num1 is greater')
+// }else if (num2 > num2 && num2 > num3){
+//   console.log('Num2 is the greater')
+// }else{
+//   console.log(
+//     'Num3 is greater'
+//   )
+// }
+
+
+// let score = parseInt(prompt('Enter your score'));
+
+// if (score >= 90 && score <=100){
+//   console.log('Grade A')
+// }else if(score >= 70 && score <=89){
+//   console.log('Grade B')
+// }else if(score >= 50 && score <=69){
+//   console.log('Grade c')
+// }else if(score >= 40 && score <=49){
+//   console.log('Grade C')
+// }else if(score >= 0 && score <=39){
+//   console.log('Fail')
+// }else {
+//   console.log('Unknown Result')
+// }
+
+
+
+
+// let salary = parseInt(prompt('Enter your salary'))
+
+// let tax1 = (salary * 10) / 100;
+// console.log(tax1)
+
+// let tax2 = (salary * 20)/ 100
+// let tax3 = (salary * 30)/ 100
+
+// if (salary <= 5000){
+//   console.log(`Your total earning after tax is ${salary -  tax1}`)
+// }else if( salary > 5000 ){
+//   console.log(`Your total earning after tax is ${salary -  tax2}`)
+// }else{
+//   console.log(`Your total earning after tax is ${salary -  tax3}`)
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 

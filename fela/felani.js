@@ -1,7 +1,7 @@
 // QUESTION A NO1
 // NUMBER 1
-let firstword ="welcome"
-let lastword ="cast"
+// let firstword ="welcome"
+// let lastword ="cast"
 
 // function checkNumber(num) {
 //     if (num % 2 === 0) {
