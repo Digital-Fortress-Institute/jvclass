@@ -370,6 +370,57 @@ let world = 'Hello Class \'your\' are welcome to';
 
 
 
+// let num1 = parseInt(prompt('Enter your first number'));
+// let num2 = parseInt(prompt('Enter your second number'));
+
+// if(num1 + num3 == 100){
+//   console.log('The sum of both numbers is 100')
+// }else{
+//   console.log('greater than or less than')
+// }
+
+
+// let age = parseInt(prompt('Enter your age'));
+
+// if(age > 60){
+//   console.log('You are elegible for a senior citizen')
+// }else{
+//   console.log('You are not elegible for a senior citizen')
+// }
+
+
+function tunde () {
+  console.log('Good morning');
+}
+tunde();
+tunde();
+tunde();
+tunde();
+tunde();
+
+function myclass(x, y){
+  // return `${x} good morning`
+  return x + y
+}
+// console.log(myclass('John'))
+console.log(myclass(10, 20));
+
+
+
+let myplus = (a, b) => {
+  return a * b
+}
+console.log(myplus(10, 20))
+
+
+
+
+
+
+
+
+
+
 
 
 
