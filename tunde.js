@@ -413,6 +413,24 @@ let myplus = (a, b) => {
 console.log(myplus(10, 20))
 
 
+let mypower = (x) => {
+  return x** 2
+}
+console.log(mypower(10));
+// higher order functions
+let score = [10, 26, 30, 32, 39, 52, 21, 90 ];
+// console.log(score.filter((x) => x % 2 == 0));
+// console.log(score.reduce((x,y) => x + y));
+
+const getApi = async() => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/posts');
+  const data = await response.json()
+  console.log(data)
+
+}
+getApi();
+
+
 
 
 
