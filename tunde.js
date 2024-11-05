@@ -389,43 +389,52 @@ let world = 'Hello Class \'your\' are welcome to';
 // }
 
 
-function tunde () {
-  console.log('Good morning');
-}
-tunde();
-tunde();
-tunde();
-tunde();
-tunde();
+// function tunde () {
+//   console.log('Good morning');
+// }
+// tunde();
+// tunde();
+// tunde();
+// tunde();
+// tunde();
 
-function myclass(x, y){
-  // return `${x} good morning`
-  return x + y
-}
+// function myclass(x, y){
+//   // return `${x} good morning`
+//   return x + y
+// }
 // console.log(myclass('John'))
-console.log(myclass(10, 20));
+// console.log(myclass(10, 20));
 
 
 
-let myplus = (a, b) => {
-  return a * b
-}
-console.log(myplus(10, 20))
+// let myplus = (a, b) => {
+//   return a * b
+// }
+// console.log(myplus(10, 20))
 
 
-let mypower = (x) => {
-  return x** 2
-}
-console.log(mypower(10));
-// higher order functions
-let score = [10, 26, 30, 32, 39, 52, 21, 90 ];
+// let mypower = (x) => {
+//   return x** 2
+// }
+// console.log(mypower(10));
+// // higher order functions
+// let score = [10, 26, 30, 32, 39, 52, 21, 90 ];
 // console.log(score.filter((x) => x % 2 == 0));
 // console.log(score.reduce((x,y) => x + y));
+let myname = document.getElementById('tunde')
+let getApi = async() => {
+  let response = await fetch('https://jsonplaceholder.typicode.com/posts');
+  let data = await response.json();
+  console.log(data);
 
-const getApi = async() => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-  const data = await response.json()
-  console.log(data)
+  myname.innerHTML = data.map((x) => {
+    return(
+       `
+       <h1>${x.title}</h1>
+       <p>${x.body}</p>
+       `
+    )
+  }).join(' ')
 
 }
 getApi();
