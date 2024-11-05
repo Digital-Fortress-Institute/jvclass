@@ -40,7 +40,7 @@ A: By using the replace("a", "b") method
 A: In script.js
 
 11. How do you trim whitespace from the beginning and end of a string?
-A: By using the trim(" ") method
+A: By using the trim() method
 
 
 12. How can you convert a string to an array of characters?

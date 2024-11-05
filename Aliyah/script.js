@@ -45,7 +45,7 @@ else if (number % 3 == 0){
     console.log("Fizz");
 }
 else{
-    console.log("Odd");
+    console.log("It is not divisible by 2 or 3");
 }
 
 // Section 2 Q2 answer
@@ -57,7 +57,7 @@ console.log(eligibleAge);
 
 // Section 2 Q3 answer
 
-let UserNumber = prompt("Enter your Number: ");
+let UserNumber = parseInt(prompt("Enter your Number: "));
 
 if (UserNumber == 0){
     console.log("Zero");
