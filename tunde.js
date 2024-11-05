@@ -421,7 +421,7 @@ let world = 'Hello Class \'your\' are welcome to';
 // let score = [10, 26, 30, 32, 39, 52, 21, 90 ];
 // console.log(score.filter((x) => x % 2 == 0));
 // console.log(score.reduce((x,y) => x + y));
-let myname = document.getElementById('tunde')
+let myname = document.getElementById('tund');
 let getApi = async() => {
   let response = await fetch('https://jsonplaceholder.typicode.com/posts');
   let data = await response.json();
@@ -438,6 +438,7 @@ let getApi = async() => {
 
 }
 getApi();
+
 
 
 
