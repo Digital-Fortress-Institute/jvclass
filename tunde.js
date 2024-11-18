@@ -421,23 +421,77 @@ let world = 'Hello Class \'your\' are welcome to';
 // let score = [10, 26, 30, 32, 39, 52, 21, 90 ];
 // console.log(score.filter((x) => x % 2 == 0));
 // console.log(score.reduce((x,y) => x + y));
-let myname = document.getElementById('tund');
-let getApi = async() => {
-  let response = await fetch('https://jsonplaceholder.typicode.com/posts');
-  let data = await response.json();
-  console.log(data);
+// let myname = document.getElementById('tund');
+// let getApi = async() => {
+//   // let response = await fetch('https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyD8PtGw7UNYhfOGaYrzITtYoPcES3hN7iY&maxResults=50');
+//   let response = await fetch('https://api.spoonacular.com/recipes/random?apiKey=0fa499dd1b0c4c4caa72ea602f40b1e5&number=100')
+//   let data = await response.json();
+ 
+//   console.log(data);
 
-  myname.innerHTML = data.map((x) => {
-    return(
-       `
-       <h1>${x.title}</h1>
-       <p>${x.body}</p>
-       `
-    )
-  }).join(' ')
+//   myname.innerHTML = data.recipes.map((x) => {
+//     return(
+//        `
+   
+//        <img src=${x.image}>
+//         <h3>${x.title}</h3>
+//         <p>${x.instructions}</p>
+     
 
-}
-getApi();
+
+//        `
+//     )
+//   }).join(' ');
+
+// }
+// getApi();
+
+
+// let tunde = document.getElementById('myclass');
+// let tunde2 = document.getElementsByClassName('myclass')[0];
+// let tunde3 = document.getElementsByClassName('myclass')[1];
+// tunde3.textContent='Welcome to javascripts class'
+// tunde2.innerHTML='Welcome to DOM2';
+// tunde.innerHTML= 'Welcome to DOM';
+
+
+// let tunde = document.querySelector('#myclass');
+// let tunde2 = document.querySelector('.myclass');
+// tunde.innerHTML='here is my query selector';
+// tunde.style.backgroundColor='red';
+// tunde.style.padding='20px'
+// tunde2.innerHTML='My class';
+
+
+// let tunde = document.createElement('h6');
+// tunde.innerHTML= 'Welcome to digital fortress';
+// document.body.append(tunde);
+
+
+let myplus = document.querySelector('.tunde1');
+let myminus = document.querySelector('.tunde2');
+let mydisplay = document.querySelector('.display');
+let count = 0;
+
+myplus.addEventListener('click', () => {
+mydisplay.innerHTML = `<img src="./images/pic_bulbon.gif" alt="">`
+
+  console.log('You click on plus sign')
+});
+
+myminus.addEventListener('click', () => {
+  console.log('You click on minus sign')
+  mydisplay.innerHTML = `<img src="./images/pic_bulboff.gif" alt="">`
+});
+
+
+// localstorage
+//     
+
+
+
+
+
 
 
 
